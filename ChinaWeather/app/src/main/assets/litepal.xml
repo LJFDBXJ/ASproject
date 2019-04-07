@@ -1,0 +1,10 @@
+<?xml version="2.0" encoding="utf-8"?>
+<litepal>
+<dbname value="ljf_weather"/>
+<version value="2"/>
+<list>
+    <mapping class="android.weather.lifdbxj.db.Province"/>
+    <mapping class="android.weather.lifdbxj.db.City"/>
+    <mapping class="android.weather.lifdbxj.db.County"/>
+</list>
+</litepal>
