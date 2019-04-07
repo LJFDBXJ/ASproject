@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:padding="@dimen/widget_margin"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <Button
+        android:hint="跳转"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jup"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+         />
+
+    <Button
+        android:id="@+id/Test"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBaseline="@+id/jup"
+        android:layout_alignBottom="@+id/jup"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/jup"
+        android:layout_toRightOf="@+id/jup"
+        android:hint="测试" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBaseline="@+id/Test"
+        android:layout_alignBottom="@+id/Test"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:background="#09C"
+        android:contentDescription="@string/appwidget_text"
+        android:gravity="center"
+        android:text="@string/appwidget_text"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#09C"
+        android:text="@string/appwidget_text"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/test2"
+        android:layout_below="@+id/jup"
+        android:layout_alignLeft="@+id/jup"
+        android:layout_alignStart="@+id/jup"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

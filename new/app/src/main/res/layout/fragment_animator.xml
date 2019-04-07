@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/mainMp4fragment"
+        android:name="com.example.administrator.anew.Utils_Tool.MainMP4Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/another"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.administrator.anew.com.fragment.Animator_Fragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="140dp"
+            android:background="#28ffffff"
+            android:gravity="center"
+            android:text="国际新闻"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/animator_View"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="#28ffffff"
+            android:layout_alignParentBottom="true"
+            android:text="点击进入"
+            android:textColor="#ffffff"
+            style="@style/Widget.AppCompat.DrawerArrowToggle"
+            android:textSize="25dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/new_Animation"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginTop="30dp"
+            android:elevation="10dp"
+            android:src="@drawable/animator" />
+    </RelativeLayout>
+
+</RelativeLayout>

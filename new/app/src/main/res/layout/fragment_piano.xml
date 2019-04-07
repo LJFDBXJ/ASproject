@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.fragment.Piano_Fragment">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/dodgerblue"
+        android:text="    1    " />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="60dp"
+        android:layout_height="450dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@color/dodgerblue"
+        android:text="    2    " />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="60dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/Button01"
+        android:background="@color/dodgerblue"
+        android:text="    3    " />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="60dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/Button02"
+        android:background="@color/dodgerblue"
+        android:text="    4    " />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="60dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/Button03"
+        android:background="@color/dodgerblue"
+        android:text="    5    " />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="60dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/Button04"
+        android:background="@color/dodgerblue"
+        android:text="    6    " />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="60dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/Button05"
+        android:background="@color/dodgerblue"
+        android:text="    7    " />
+
+</RelativeLayout>

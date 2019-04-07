@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.administrator.anew.Utils_Tool.ConfigureActivity"
+    android:initialKeyguardLayout="@layout/new_app_widget"
+    android:initialLayout="@layout/new_app_widget"
+    android:minHeight="40dp"
+    android:minWidth="40dp"
+    android:previewImage="@drawable/bb"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen"
+    android:minResizeHeight="40dp"
+    android:minResizeWidth="40dp"
+    android:autoAdvanceViewId="@array/list_preference_entries">
+
+</appwidget-provider>
+    <!--autoAdvanceViewId指定一个子View ID,表明该子View会自动更新，在Android3.0引入
+    resizeMode 指定了widget的调整规则
+    widgetCategory 指定了widget 的能显示的地方
+    initialKeyguardLayout 指定了widget位于lockscreen中的布局资源
+    -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="secondary"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:numericShortcut="@string/app_name"
+            android:title="相机" >
+        </item>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="相册"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="幻灯片"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="工具"
+            app:showAsAction="" />
+    </group>
+
+
+</menu>
