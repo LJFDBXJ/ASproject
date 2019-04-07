@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <include layout="@layout/action_bar"/>
+
+    <edu.feicui.newses.service.HorizontalListView
+        android:id="@+id/horizon_listview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f1ebeb"
+        >
+
+    </edu.feicui.newses.service.HorizontalListView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#e9e7e7"/>
+
+    <FrameLayout
+        android:id="@+id/fl_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </FrameLayout>
+
+</LinearLayout>
