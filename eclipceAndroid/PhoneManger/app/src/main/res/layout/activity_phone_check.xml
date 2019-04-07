@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manger.activity.PhoneCheckActivity">
+
+    <com.manger.tools.Actionbar
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <include
+        layout="@layout/include_parwer"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:id="@+id/list_view_check1"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:divider="#cc4e5a6b"
+        android:dividerHeight="1.5dp">
+
+    </ListView>
+</LinearLayout>

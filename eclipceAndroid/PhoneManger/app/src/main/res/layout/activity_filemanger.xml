@@ -1,0 +1,260 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manger.activity.FileMangerActivity_one">
+
+    <com.manger.tools.Actionbar
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:id="@+id/telt_relative"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2.5dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.2"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/file_textnum1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView1"
+            android:gravity="center_vertical"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center|right"
+            android:text="已发现"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/cut"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_ALL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights">
+
+            <TextView
+                android:id="@+id/text_ALL"
+                style="@style/fileone_text3"
+                android:text="全部：" />
+
+            <TextView
+                android:id="@+id/text_ALLnumber"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_ALL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_ALL"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_document"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_document1"
+                style="@style/fileone_text3"
+                android:text="文档：" />
+
+            <TextView
+                android:id="@+id/text_document2"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_document"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_documen"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_video1"
+                style="@style/fileone_text3"
+                android:text="@string/video" />
+
+            <TextView
+                android:id="@+id/text_videonumber"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_video"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_video"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_music1"
+                style="@style/fileone_text3"
+                android:text="音乐：" />
+
+            <TextView
+                android:id="@+id/text_musicnumber"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_music"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_music"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_image"
+                style="@style/fileone_text3"
+                android:text="图片：" />
+
+            <TextView
+                android:id="@+id/text_imagenumber"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_image"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_package"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_package"
+                style="@style/fileone_text3"
+                android:text="压缩包：" />
+
+            <TextView
+                android:id="@+id/text_packagenumber"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_package"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_package"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_install"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/text_install"
+                style="@style/fileone_text3"
+                android:text="安装包：" />
+
+            <TextView
+                android:id="@+id/text_installnumber"
+                style="@style/fileone_text2" />
+
+            <ImageView
+                android:id="@+id/imageView_install"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrows_right"
+                android:visibility="invisible" />
+
+            <ProgressBar
+                android:id="@+id/pro_install"
+                style="@style/file_prosgess" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+    </LinearLayout>
+
+</LinearLayout>

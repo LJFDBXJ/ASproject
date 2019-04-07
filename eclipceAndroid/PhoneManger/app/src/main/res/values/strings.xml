@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">安卓易手机管家</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lead">LeadActivity</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="title_activity_spead">SpeadActivity</string>
+    <string name="title_activity_actionbar">ActionbarActivity</string>
+    <string name="home_title">安卓易手机管家</string>
+    <string name="title_activity_action_bar">Action_barActivity</string>
+    <string name="title_activity_spead_1">Spead_1Activity</string>
+    <string name="title_activity_softmanger">SoftmangerActivity</string>
+    <string name="title_activity_phonecheck">PhonecheckActivity</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="title_activity_filemanger">FilemangerActivity</string>
+    <string name="title_activity_rubbish">RubbishActivity</string>
+    <string name="title_activity_about_we">AboutWeActivity</string>
+    <string name="title_activity_set">SetActivity</string>
+    <string name="open_start">开机启动</string>
+    <string name="notification_icon">通知图标</string>
+    <string name="misg_out">消息推送</string>
+    <string name="help_specke">帮助说明</string>
+    <string name="idea_feedback">意见反馈</string>
+    <string name="friends_share">好友分享</string>
+    <string name="vewsion_updating">版本更新</string>
+    <string name="title_activity_phonebook">PhonebookActivity</string>
+    <string name="title_activity_phone_singer">PhoneSingerActivity</string>
+    <string name="phone_spead">手机加速</string>
+    <string name="fiel_manger">文件管理</string>
+    <string name="phone_book">通讯录</string>
+    <string name="rubbish_clesr">垃圾清理</string>
+    <string name="phone_check">手机检测</string>
+    <string name="shoftmanger">软件管理</string>
+    <string name="title_activity_singer_list">SingerListActivity</string>
+    <string name="title_activity_phone_dial">PhoneDial</string>
+    <string name="color_white">#FFFFFF</string>
+    <string name="title_activity_system__phone">System_PhoneActivity</string>
+    <string name="title_activity_shoft_manger_">ShoftManger_Activity</string>
+    <string name="shoftcheck">全选</string>
+    <string name="unuse">卸载选中软件</string>
+    <string name="title_activity_filletwo_manger">Filletwo_mangerActivity</string>
+    <string name="oneKeySpeed">一键加速</string>
+    <string name="video">视频：</string>
+
+</resources>

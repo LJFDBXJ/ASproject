@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manger.manger.ShoftManger_Activity">
+
+    <com.manger.tools.Actionbar
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout style="@style/cuthei"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/rotate_shoft"
+            android:indeterminateDuration="400" />
+
+        <ListView
+            android:id="@+id/listView_shoft1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1.5dp">
+
+        </ListView>
+
+    </RelativeLayout>
+
+    <LinearLayout style="@style/cuthei"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkall_shoftBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#4169e1"
+            android:text="@string/shoftcheck"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_delete1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:background="#3CB371"
+            android:text="@string/unuse"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

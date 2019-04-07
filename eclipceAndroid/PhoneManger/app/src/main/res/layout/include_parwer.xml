@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:background="#aa4e5a6b" 
+    
+    >
+
+    <com.manger.view.Progess_view
+        android:id="@+id/progessview1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="250dp"
+        android:layout_height="105dp" 
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:alpha="0.5"
+        android:progressDrawable="@drawable/layet_bettry"
+        >
+    </com.manger.view.Progess_view>
+
+    <TextView
+        android:id="@+id/textparwer2"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:background="@drawable/s"
+        android:padding="1dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:alpha="0.5"
+        />
+
+    <TextView
+        android:id="@+id/textParwer1"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:gravity="center_vertical"
+        android:text="20%"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+       />
+
+</LinearLayout>

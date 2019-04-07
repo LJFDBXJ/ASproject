@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manger.activity.SpeedActivity">
+
+    <com.manger.tools.Actionbar
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/progressBar_top1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/greay" 
+            />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_speed_phone"
+                style="@style/phone_text_speed"
+                android:gravity="center_vertical" />
+
+            <LinearLayout style="@style/cut" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_speed_versions"
+                style="@style/phone_text_speed" />
+
+            <LinearLayout style="@style/cut" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_speed_text"
+                style="@style/phone_text_speed" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:alpha="0.3"
+                android:background="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/checkBox_speed1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_speed1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/checkBox_speed1"
+                android:text="一键清理"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ProgressBar
+                android:id="@+id/progressBar_btoom1"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:indeterminateBehavior="repeat"
+                android:indeterminateDrawable="@drawable/rotate_shoft"
+                android:indeterminateDuration="400" />
+
+            <ListView
+                android:id="@+id/listView_speed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#FFFFFF"
+                android:dividerHeight="1.5dp" >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

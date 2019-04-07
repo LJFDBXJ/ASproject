@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.manger.activity.SetActivity" >
+
+    <!-- 主布局 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 可选布局占比3 -->
+
+
+        <!-- 开机启动 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+              >
+
+            <TextView
+                android:id="@+id/textView_set1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="190dp"
+                android:gravity="center_vertical"
+                android:text="@string/open_start"
+                android:textSize="@dimen/text_set" />
+
+            <ToggleButton
+                android:id="@+id/open"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/awlwctor_setnotifiction"
+              />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:background="#cc4e5a6b"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_set2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="190dp"
+                android:gravity="center_vertical"
+                android:text="@string/notification_icon"
+                android:textSize="@dimen/text_set" />
+
+            <ToggleButton
+                android:id="@+id/notifiction"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/awlwctor_setnotifiction"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+             android:background="#cc4e5a6b"
+           />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_set3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="190dp"
+                android:gravity="center_vertical"
+                android:text="@string/misg_out"
+                android:textSize="@dimen/text_set" />
+
+            <ToggleButton
+                android:id="@+id/messager"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/awlwctor_setnotifiction"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+             android:background="#cc4e5a6b"
+         />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_set4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="230dp"
+                android:drawableRight="@drawable/ic_arrows_right"
+                android:gravity="center"
+                android:text="@string/help_specke"
+                android:textSize="@dimen/text_set" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2.5dp"
+                 android:background="#cc4e5a6b"
+                />
+
+            <TextView
+                android:id="@+id/textView_set5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="230dp"
+                android:drawableRight="@drawable/ic_arrows_right"
+                android:gravity="center"
+                android:text="@string/idea_feedback"
+                android:textSize="@dimen/text_set" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2.5dp"
+                 android:background="#cc4e5a6b"
+                />
+
+            <TextView
+                android:id="@+id/textView_set6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="230dp"
+                android:drawableRight="@drawable/ic_arrows_right"
+                android:gravity="center"
+                android:text="@string/friends_share"
+                android:textSize="@dimen/text_set" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2.5dp"
+                 android:background="#cc4e5a6b"
+               />
+
+            <TextView
+                android:id="@+id/textView_set7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="230dp"
+                android:drawableRight="@drawable/ic_arrows_right"
+                android:gravity="center"
+                android:text="@string/vewsion_updating"
+                android:textSize="@dimen/text_set" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

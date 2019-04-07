@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.manger">
+
+    <uses-permission android:name="android.permisson.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name="com.manger.activity.LeadActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.manger.activity.SpeedActivity"
+            android:label="@string/title_activity_spead">
+
+        </activity>
+        <activity
+            android:name="com.manger.activity.SoftMsgActivity"
+            android:label="@string/title_activity_softmanger"></activity>
+        <activity
+            android:name="com.manger.activity.PhonebookActivity"
+            android:label="@string/title_activity_phonecheck"></activity>
+        <activity
+            android:name="com.manger.activity.PhoneCheckActivity"
+            android:label="@string/title_activity_book"></activity>
+        <activity
+            android:name="com.manger.activity.FillemangerActivity_two"
+            android:label="@string/title_activity_filletwo_manger"></activity>
+        <activity
+            android:name="com.manger.activity.RubbishActivity"
+            android:label="@string/title_activity_rubbish"></activity>
+        <activity
+            android:name="com.manger.activity.LogoActivity"
+            android:label="@string/title_activity_logo"></activity>
+        <activity
+            android:name="com.manger.activity.AboutActivity"
+            android:label="@string/title_activity_about_we"></activity>
+        <activity
+            android:name="com.manger.activity.SetActivity"
+            android:label="@string/title_activity_set"></activity>
+        <activity
+            android:name="com.manger.activity.PhoneListActivity"
+            android:label="@string/title_activity_phone_singer"></activity>
+        <activity
+            android:name="com.manger.activity.HomeActivity"
+            android:label="@string/title_activity_phone_dial"></activity>
+        <activity
+            android:name="com.manger.manger.ShoftManger_Activity"
+            android:label="@string/title_activity_shoft_manger_"></activity>
+        <activity
+            android:name="com.manger.activity.Shoftmanger_listview"
+            android:label="@string/title_activity_book"></activity>
+        <activity
+            android:name="com.manger.activity.FileMangerActivity_one"
+            android:label="@string/title_activity_filemanger"></activity>
+    </application>
+
+</manifest>

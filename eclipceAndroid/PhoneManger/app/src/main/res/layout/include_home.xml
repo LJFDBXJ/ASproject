@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    tools:context="com.manger.activity.HomeActivity">
+
+    <com.manger.tools.Actionbar
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <com.manger.tools.HomeView
+            android:id="@+id/homeview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+        <com.manger.tools.DrawImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="420dp"
+            android:alpha="0.8"
+            android:background="@drawable/home_speedlayer" />
+
+        <TextView
+            android:id="@+id/texthome_speed1"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="420sp"
+            android:gravity="center"
+            android:text="一键加速"
+            android:textSize="20sp"
+            android:background="@drawable/home_speedlayer" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/spead_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableTop="@drawable/icon_rocket"
+                    android:gravity="center"
+                    android:text="@string/phone_spead" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/app_recommend_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableTop="@drawable/icon_softmgr"
+                    android:gravity="center"
+                    android:text="@string/shoftmanger" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/message_send_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableTop="@drawable/icon_phonemgr"
+                    android:gravity="center"
+                    android:text="@string/phone_check" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/phone_book_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_alignParentRight="true"
+                    android:drawableTop="@drawable/icon_telmgr"
+                    android:gravity="center"
+                    android:text="@string/phone_book" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/fiel_manger2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableTop="@drawable/icon_filemgr"
+                    android:gravity="center"
+                    android:text="@string/fiel_manger" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/rubbish_clesr6"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableTop="@drawable/icon_sdclean"
+                    android:gravity="center"
+                    android:text="@string/rubbish_clesr" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

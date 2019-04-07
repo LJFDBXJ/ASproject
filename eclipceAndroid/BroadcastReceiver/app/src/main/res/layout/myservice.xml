@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="测试绑定"
+        android:textSize="20dp" />
+  
+    <Button  
+        android:id="@+id/startservice"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="startService"  
+    />  
+    <Button  
+        android:id="@+id/stopservice"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="stopService"  
+    />  
+    <Button  
+        android:id="@+id/bindservice"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="bindService"  
+    />  
+    <Button  
+        android:id="@+id/unbindservice"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="unbindService"  
+    />  
+</LinearLayout>  

@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--
+          Base application theme, dependent on API level. This theme is replaced
+          by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+
+      -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+
+    <color name="color">#ffffff</color>
+
+    <style name="shoftmanger">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="cut">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:background">#cc4e5a6b</item>
+    </style>
+
+    <style name="cuthei">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2.5dp</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="phone_text_speed">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="file_prosgess">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:indeterminateDrawable">@drawable/rotate_shoft</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">400</item>
+    </style>
+
+    <style name="fileone_text2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+
+    <style name="fileone_text3">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center|right</item>
+    </style>
+</resources>

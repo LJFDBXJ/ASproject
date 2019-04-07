@@ -1,0 +1,286 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manger.activity.SoftMsgActivity">
+
+    <com.manger.tools.Actionbar
+        android:id="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="185dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:orientation="vertical">
+
+            <com.manger.tools.MyView
+                android:id="@+id/go"
+                android:layout_width="match_parent"
+                android:layout_height="187dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.09"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2.5dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/textView_yiyong6"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/mediu"
+                    android:gravity="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:text="已用设备" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2.5dp"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/textView_zongde7"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/textView_zongde7"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/dodger"
+                    android:gravity="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView_zong7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:text="本机内存" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2.5dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/textView_weiyong8"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/deepskyblue"
+                    android:gravity="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView_wei8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:text="未用内存" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/cut"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/shoftmanger"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_shoft1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备"
+                android:textColor="@color/white" />
+
+            <LinearLayout style="@style/shoftmanger">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.2"
+                        android:background="#cc4e5a6b" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:background="#1E90ff"
+                        android:gravity="center_vertical"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView1"
+                        android:background="#3cb371"
+                        android:gravity="center_vertical"
+                        android:text="TextView" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_shoft2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout style="@style/shoftmanger">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/textView_all3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ml"
+                    android:gravity="center_vertical"
+                    android:onClick="all"
+                    android:text="所有应用"
+                    android:textSize="25sp"
+                    android:focusable="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+
+        <LinearLayout style="@style/shoftmanger">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/textView_system4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ml"
+                    android:gravity="center_vertical"
+                    android:onClick="all"
+                    android:text="系统应用"
+                    android:textSize="25sp"
+                    android:focusable="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut" />
+
+        <LinearLayout style="@style/shoftmanger">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.2"
+                    android:background="#cc4e5a6b" />
+
+                <TextView
+                    android:id="@+id/textView_user5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ml"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:onClick="all"
+                    android:text="用户应用"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/cut"/>
+    </LinearLayout>
+
+</LinearLayout>
